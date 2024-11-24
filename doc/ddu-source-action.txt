@@ -35,7 +35,7 @@ EXAMPLES                                            *ddu-source-item-examples*
 SOURCE PARAMS                                         *ddu-source-item-params*
 
                                                  *ddu-source-item-param-items*
-items		(DduItem[])
+items		(Item[])
 		items list.
 
 		Default: []
