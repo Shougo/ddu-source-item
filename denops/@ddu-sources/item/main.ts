@@ -15,7 +15,7 @@ export class Source extends BaseSource<Params> {
   }): ReadableStream<Item[]> {
     return new ReadableStream({
       start(controller) {
-        controller.enqueue(args.sourceParams.items);
+        controller.enqueue([...args.sourceParams.items]);
         controller.close();
       },
     });
